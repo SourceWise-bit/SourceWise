@@ -2,7 +2,7 @@ document.getElementById('search-form').addEventListener('submit', async function
     event.preventDefault();
   
     const prompt = document.getElementById('prompt').value;
-    const apiKey = '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'; // Voeg hier je eigen OpenAI API-sleutel toe
+    const apiKey = 'sk-a-zJgw1ZI9YkuBs5ofMGXrPFi0nGoyyjzw66jOlBc2T3BlbkFJuMXLBpbAL1t8eZwFct5RxgFT0GH1Hna94U2zhjzNoA'; // Voeg hier je eigen OpenAI API-sleutel toe
   
     try {
       // Stuur de vraag naar de OpenAI API
